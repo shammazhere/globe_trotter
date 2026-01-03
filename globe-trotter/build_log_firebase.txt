@@ -1,0 +1,29 @@
+
+> globe-trotter@0.1.0 build
+> next build
+
+▲ Next.js 16.1.1 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 15.6s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/9) ...
+Error occurred prerendering page "/_not-found". Read more: https://nextjs.org/docs/messages/prerender-error
+Error [FirebaseError]: Firebase: Error (auth/invalid-api-key).
+    at bI (C:\Users\Admin\Downloads\hackathon\odoo\globe-trotter\.next\server\chunks\ssr\[root-of-the-server]__29dc9bd2._.js:3:326735)
+    at bJ (C:\Users\Admin\Downloads\hackathon\odoo\globe-trotter\.next\server\chunks\ssr\[root-of-the-server]__29dc9bd2._.js:3:326784)
+    at ae.instanceFactory (C:\Users\Admin\Downloads\hackathon\odoo\globe-trotter\.next\server\chunks\ssr\[root-of-the-server]__29dc9bd2._.js:3:375505)
+    at ag.getOrInitializeService (C:\Users\Admin\Downloads\hackathon\odoo\globe-trotter\.next\server\chunks\ssr\[root-of-the-server]__29dc9bd2._.js:3:307024)
+    at ag.initialize (C:\Users\Admin\Downloads\hackathon\odoo\globe-trotter\.next\server\chunks\ssr\[root-of-the-server]__29dc9bd2._.js:3:306432)
+    at cS (C:\Users\Admin\Downloads\hackathon\odoo\globe-trotter\.next\server\chunks\ssr\[root-of-the-server]__29dc9bd2._.js:3:364294)
+    at dt (C:\Users\Admin\Downloads\hackathon\odoo\globe-trotter\.next\server\chunks\ssr\[root-of-the-server]__29dc9bd2._.js:3:376143)
+    at module evaluation (C:\Users\Admin\Downloads\hackathon\odoo\globe-trotter\.next\server\chunks\ssr\[root-of-the-server]__29dc9bd2._.js:12:70161)
+    at instantiateModule (C:\Users\Admin\Downloads\hackathon\odoo\globe-trotter\.next\server\chunks\ssr\[turbopack]_runtime.js:740:9)
+    at getOrInstantiateModuleFromParent (C:\Users\Admin\Downloads\hackathon\odoo\globe-trotter\.next\server\chunks\ssr\[turbopack]_runtime.js:763:12) {
+  code: 'auth/invalid-api-key',
+  customData: [Object],
+  digest: '1791195416'
+}
+Export encountered an error on /_not-found/page: /_not-found, exiting the build.
+⨯ Next.js build worker exited with code: 1 and signal: null
